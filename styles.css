@@ -42,3 +42,7 @@ body {
   padding-left: 400px;
   opacity: 1;
 }
+
+.content h1 {
+  color: black;
+  text-align: center;

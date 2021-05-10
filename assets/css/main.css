@@ -164,12 +164,25 @@ textarea {
 }
 .list__group {
   padding: 10px 10px 10px 20px;
-  text-align: center;
+  display: inline-block;
+  margin-left: 28%;
   font-size: 20px;
   transition: 0.5s ease-in-out;
+  margin-bottom: 5%;
 }
 .list__group:hover {
   transform: skew(-50deg);
+}
+
+.contact-form {
+  border-radius: 6px;
+  border: 1px solid;
+  padding: 20px 70px;
+  width: 60%;
+  margin-left: 20%;
+}
+.contact-form .form-control-submit {
+  font-size: 10px;
 }
 
 /* Basic */
