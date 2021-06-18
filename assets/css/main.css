@@ -2167,6 +2167,11 @@ ul.actions.special {
   border: solid 10px #fff;
 }
 
+.wrapper.style4 {
+  background: #a0a1a7;
+  color: #1f232b;
+}
+
 /* Page Wrapper */
 
 #page-wrapper > section {
