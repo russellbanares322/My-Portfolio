@@ -107,10 +107,39 @@ body {
   padding-left: 5px;
 }
 .email {
+  padding-top: 5px;
   padding-left: 5px;
   margin-bottom: 5px;
 }
 
 .about__p {
   text-align: center;
+}
+
+.h_title {
+  animation: h_title 0.9s;
+}
+
+.p_title {
+  animation: p_title 0.9s;
+}
+
+@keyframes h_title {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes p_title {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
