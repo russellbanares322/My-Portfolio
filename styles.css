@@ -69,6 +69,8 @@ body {
   transform: rotate(-30deg) skew(25deg);
   font-size: 100px;
   background: #ccc;
+  border: 1px solid;
+  box-shadow: 0 8px 6px -1px black;
 }
 .contact__me .cont__list span {
   position: absolute;
@@ -118,10 +120,12 @@ body {
 
 .h_title {
   animation: h_title 0.9s;
+  text-shadow: 2px 2px 5px black;
 }
 
 .p_title {
   animation: p_title 0.9s;
+  text-shadow: 2px 2px 5px black;
 }
 
 @keyframes h_title {
