@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   transition: 0.5s;
+  background-color: #282b34;
 }
 .transition-fade {
   opacity: 1;
@@ -43,9 +44,10 @@ body {
   opacity: 1;
 }
 
-.content h1 {
-  color: black;
+h1 {
+  color: whitesmoke;
   text-align: center;
+  margin: 50px 50px;
 }
 
 .l_view {
@@ -150,4 +152,8 @@ body {
 
 .link {
   padding-left: 4px;
+}
+
+.contact {
+  background-color: #282b34;
 }
