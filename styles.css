@@ -45,9 +45,9 @@ body {
 }
 
 h1 {
-  color: whitesmoke;
+  color: #282b34;
   text-align: center;
-  margin: 50px 50px;
+  margin: 40px 30px;
 }
 
 .l_view {
@@ -157,3 +157,4 @@ h1 {
 .contact {
   background-color: #282b34;
 }
+
