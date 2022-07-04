@@ -121,7 +121,7 @@ h1 {
 }
 
 .h_title {
-  animation: h_title 0.9s;
+ 
   text-shadow: 2px 2px 5px black;
 }
 
@@ -130,23 +130,17 @@ h1 {
   text-shadow: 2px 2px 5px black;
 }
 
-@keyframes h_title {
+
+@keyframes p_title {
   0% {
+    transform: translateX(-50%);
+  }
+  10% {
     transform: translateX(-100%);
   }
 
   100% {
     transform: translateX(0);
-  }
-}
-
-@keyframes p_title {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0);
   }
 }
 
@@ -172,3 +166,4 @@ h1 {
 .logo_icon {
   size: 12px !important;
 }
+
