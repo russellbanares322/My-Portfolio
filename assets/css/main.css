@@ -2256,8 +2256,7 @@ ul.actions.special {
   display: inline-block;
   border: 1px solid;
   border-radius: 0.35em;
-  box-shadow: inset 0px 0px 1px 1px black;
-  box-shadow: 0 8px 6px -6px black;
+
   padding: 0 1.5em 0 1.5em;
   margin-right: 1.8em;
 }
